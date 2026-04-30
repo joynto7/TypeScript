@@ -29,6 +29,15 @@ console.log(poor);
 
 //CallBack Function
 
+//basic map
+
+const numbers: number[] = [1, 2, 3, 4, 5];
+
+const doubled = numbers.map((num: number): number => {
+    return num * 2;
+});
+
+console.log(doubled); // [2, 4, 6, 8, 10]
 
 
 
