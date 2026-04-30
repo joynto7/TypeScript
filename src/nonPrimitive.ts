@@ -26,3 +26,19 @@ let couple : [string, String ] = ["Mahi","Mohona"];
 let mix : [number, String ] = [100,"Mohona"];
 let distination : [ String, String, number ] = ["Dhaka","Mohona", 2];
  
+// reference Types
+
+const usr: {
+    university: "Daffodil International Uniersity" //value => Type : Litteral Type
+    firstName: string;
+    middleName?:string;
+    lastName: string;
+    isMarried: boolean;
+} = {
+    firstName: "Joynto",
+    lastName: "Ghosh",
+    isMarried: false,
+    university: "Daffodil International Uniersity"
+}
+
+console.log(usr);
