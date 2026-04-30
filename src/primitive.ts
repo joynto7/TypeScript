@@ -9,6 +9,11 @@ let hex: number = 0xff;
 let name : string = "Joy"
 let greetings: string ="Hello,${name}"
 
+// boolean
+
+let isActive: boolean = true;
+let isLoggedIn: boolean = false;
+
 
 
 
