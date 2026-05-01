@@ -25,5 +25,14 @@ const otherInfo =
 const usrInfo = { ...usr, ...otherInfo}
 console.log(usrInfo);
 
+// Rest Operator
 
+const sendInvite = ( ...friends:string[]) => 
+    {
+       friends.forEach((friend: string) => 
+        console.log(`send Invitation to ${friend}`)
+    );
+    }
+    sendInvite("Maria","Ahona","Rupak","tonmy","Aziz","haha");
+    
 
