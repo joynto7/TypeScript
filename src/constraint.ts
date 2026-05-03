@@ -34,3 +34,4 @@ const student3 = {
   age: 23,
   isActive: true, // extra property
 };
+console.log(student1);
