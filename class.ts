@@ -9,6 +9,16 @@ class Animal{
         this.sound = sound 
 
      }
+     makesound(){
+        console.log(`${this.name} is making sound:${this.sound}`);
+        
+     }
+
+
+
+
+
+
 }
 
 const dog = new Animal("dogvai","dog","Ghew Ghwe")
@@ -16,5 +26,8 @@ const cat = new Animal("catvai","cat","mew mew")
 
 console.log(dog.sound);
 console.log(cat.sound);
+//console.log(cat.makesound());
+cat.makesound();
+
 
 
